@@ -1,0 +1,55 @@
+
+#container {
+	height: auto;
+}
+#player_list input {
+	width: 80%; 
+}
+.highlight {
+   background-color: #FFFF55 !important;
+    border: 2px solid #bbb;
+}
+
+#team_names table {
+	width:	100%;
+	border-spacing: 10px;
+    border-collapse: separate;
+    font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	
+}
+#team_names th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+#team_names tr {
+	background-color:#d4e3e5;
+}
+#team_names table td {
+border:1px solid red;
+height:50px;
+}
+#team_data table {
+	width:	100%;
+	border-spacing: 10px;
+    border-collapse: separate;
+    font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+}
+
+#team_data table td {
+	height:678px;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}

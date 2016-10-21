@@ -1,0 +1,78 @@
+ .ball2 ,.ball3 ,.ball4 ,.ball5 ,.ball6{
+	display:none;
+}
+.active{
+	background-color:rgb(123, 123, 211);
+}
+
+.active1stbat{
+	background-color:red;
+}
+.completed{
+	background-color:red;
+}
+.player_btn .batsman .active{
+	background-color:rgb(123, 123, 211);
+}
+.startmatchdiv{
+	margin-bottom :10px;
+}
+.ap_parent { position: relative; }
+
+.ap_baseLayer {
+  display: none;
+  position: absolute;
+  z-index: 98;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.ap_popup {
+  position: absolute;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.ap_parent {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fafad2;
+}
+
+.ap_popup {
+  width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #ccc;
+}
+
+.ap_btn {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ff6347;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#batplayer1_id,#batplayer2_id{
+	margin-left:12px;
+}
+.bowlerruns{
+	width:100%;
+}
+.runsgiven{
+	float:left;
+	width:18%;
+	border:1px solid;
+}

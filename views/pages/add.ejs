@@ -1,0 +1,30 @@
+
+<div id = "register_div">
+
+<form name="player_reg_form" id = "form_id" method = 'post'>
+<table id="addplayertbl_div">
+
+<tr><td>
+<input type="hidden" name = "email_list" id="email_list" value="<%= email %>">
+<label class="label_class">First Name</label></td><td><input name = "f_name" id = "f_name" class = "field_class" type = "text" 
+value=<%=values.f_name ?values.f_name:'' %>><span class="f_name" style="color:red;"></span></td></tr>
+<tr><td><label class="label_class">Last Name</label></td><td><input  name = "l_name" id = "l_name" class = "field_class" type = "text"
+value=<%=values.l_name ?values.l_name:'' %>><span class="l_name" style="color:red;"></span></td></tr>
+<tr><td><label class="label_class">OSS ID</label></td><td><input name = "oss_id" id = "oss_id" class = "field_class" type = "text"
+value=<%=values.oss_id ?values.oss_id:'' %>><span class="oss_id" style="color:red;"></span></td></tr>
+<tr><td><label class="label_class">Phone</label></td><td><input name = "phone" id = "phone" class = "field_class" type = "text"
+value=<%=values.phone ?values.phone:'' %> ><span class="phone" style="color:red;"></span></td></tr>
+<tr><td><label class="label_class">Email Id</label></td><td><input name = "email" id = "email" class = "field_class" type = "text" 
+value=<%=values.email ?values.email:'' %>><span class="email" style="color:red;"></span></td></tr>
+<tr><td><label class="label_class">Address</label></td><td><input name = "address" id = "address" class = "field_class" type = "text" 
+value=<%=values.address ?values.address:'' %>><span class="address" style="color:red;"></span></td></tr>
+</table>
+<input name = "id" class = "field_class" type = "hidden">
+
+<div style="text-align:center">  
+    <input class = "match_player_save" id ="playeradd" type = "button" Value = "Save"> 
+    <input class = "match_player_save" id ="show_list" type = "button" Value = "Show List" data-dismiss="modal"> 
+</div>   
+
+</form>
+</div>

@@ -1,0 +1,23 @@
+
+<body>
+<%= title %>
+<div id = "center">
+
+<form enctype="multipart/form-data" id = "form_id" method = 'post' action='/admin'>
+
+<p>Email Id<input name = "email" id = "email" class = "button_class" type = "text" ></p>
+<p>Password<input name = "password" id = "password" class = "button_class" type = "password"></p>
+<input class = "button_class" id="login_save" type = "submit" value  = "Login">
+<input class ="cancel" type = "button" value  = "Cancel" data-dismiss="modal">
+
+
+</form>
+</div>
+</body>
+<script>
+<% for (var i = 0; i < errors.length; i++) { %>
+var label = '<label id="<%= errors[i].param %>_error" class="text-danger" for=" <%= errors[i].param %>"><%=errors[i].msg %></label>';
+$(label ).insertAfter( "#<%= errors[i].param %>");
+<% } %>
+
+</script>
