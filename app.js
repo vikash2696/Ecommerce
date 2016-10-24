@@ -58,7 +58,7 @@ app.get('/',  function(req, res) {
 // used to fetch home page data
 app.get('/index', index.fetchHomePageData);
 app.get('/login',index.login);
-app.listen(3012, function() {
+app.listen(3014, function() {
 	console.log("Express server listening on port %d in %s mode",
 			app.address().port, app.settings.env);
 });
